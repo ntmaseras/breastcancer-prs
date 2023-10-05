@@ -1,0 +1,4 @@
+conda create --name qgg python=3.10.9 pandas numpy pyplink seaborn scikit-learn matplotlib
+conda install -c aksarkar pyplink
+conda install pandas-plink
+conda install -c bioconda bedtools

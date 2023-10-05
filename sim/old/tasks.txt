@@ -1,0 +1,7 @@
+1 - simulate some genetic data  for 10,000 indiviuals and 10,000 snps (using the function --make-snps)
+2 - simulate some phenotypes (using the function --make-phenos)
+Note that both functions are described on https://dougspeed.com/simulations/
+
+3 - divide the data into training and test (eg 90% and 10%)
+4 - perform a gwas using the training data (https://dougspeed.com/single-predictor-analysis/)
+5 - make a Classical PRS using the results from 4 to predict phenotypes for the test individuals
